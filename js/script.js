@@ -29,20 +29,20 @@ function init(){
       infowindow.open(myMap, marker);
   	});
 	
-	const BusRouteCoords = [
+	const busRouteCoords = [
       {lat: 41.924183, lng: -87.736900},
       {lat:41.925168, lng: -87.652820},
     ];
 	
-    const BusRoute = new google.maps.Polyline({
-      path: BusRouteCoords,
+    const busRoute = new google.maps.Polyline({
+      path: busRouteCoords,
       geodesic: true,
       strokeColor: "blue",
       strokeOpacity: 1.0,
       strokeWeight: 2,
     });
 
-    BusRoute.setMap(myMap);
+    busRoute.setMap(myMap);
 
 
 }
