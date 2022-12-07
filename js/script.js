@@ -42,7 +42,7 @@ function init(){
       strokeWeight: 2,
     });
 
-    trainRoute.setMap(map);
+    trainRoute.setMap(myMap);
 
 
 }
