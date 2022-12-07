@@ -1,10 +1,10 @@
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.929637, -87.738234);
+	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 15,
+		zoom: 18,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -16,10 +16,10 @@ function init(){
 	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap,
-		animation: google.maps.Animation.DROP,
+		animation: google.maps.Animation.BOUNCE,
 	});
 
-	var contentString = '<h1>Kelvyn Park</h1><p>This is Kelvyn Park, my neighborhood park. This is where I play a lot of soccer with my friends and made a lot of memories with my family.</p>';
+	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
@@ -28,6 +28,8 @@ function init(){
 	google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
+
+
 }
 
 google.maps.event.addDomListener(window, 'load', init);
