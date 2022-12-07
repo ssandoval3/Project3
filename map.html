@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="iitstyle.css">
-	<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
-	<script asyncsrc src="iitbasicmap.js"></script>
-</head>
-<body>
-  <div id="wrapper">
-    <div id="canvas"></div>
-  </div>
-</body>
+  <head>
+	<meta charset="UTF-8" >
+	<title>Map</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Knewave&display=swap" rel="stylesheet">
+	<script src="js/index.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKzJbMEXbS6wVQXzYIwbq4kwb6aO5eFMI&callback=initMap"></script>
+  </head>
+  <body>
+    <header>
+      <nav id="main-navbar">
+	    <div id="navbar-container">
+	      <ul>
+		    <li><a href="index.html">Resume</a></li>
+		    <li><a href="cycling.html">Cycling</a></li>
+		    <li><a href="volleyball.html">Volleyball</a></li>
+			<li><a href="map.html">Map</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+    </header>
+    <h2>Map</h2>
+    <div id="wrapper">
+      <div id="canvas"></div>
+    </div>
+  </body>
 </html>
