@@ -1,0 +1,118 @@
+#main-navbar {
+  text-align: center;
+  background-color: LightGreen;
+  width: 100%;
+}
+
+#main-navbar ul {
+  position: relative;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-container ul li{
+  float: left;
+  padding: 20px 20px;
+}
+
+#main-navbar ul li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+}
+
+#main-navbar ul li a:hover {
+  background-color: MediumSeaGreen;
+  color: White;
+}
+
+body {
+  background-color: FloralWhite;
+
+}
+
+#compsci{
+  width: 850px;
+  height: 425px;
+  font-size: 14px;
+  margin: auto;
+  padding: 30px 80px;
+  border: 3px ridge MediumSeaGreen;
+  text-align: center;
+}
+
+#extracurriculars{
+  width: 850px;
+  height: 200px;
+  font-size: 14px;
+  margin: auto;
+  padding: 30px 80px;
+  border: 3px ridge MediumSeaGreen;
+  text-align: center;
+}
+
+#edu{
+  width: 850px;
+  height: 600px;
+  font-size: 14px;
+  margin: auto;
+  padding: 30px 80px;
+  border: 3px ridge MediumSeaGreen;
+  text-align: center;
+}
+  
+h1{
+  text-align: center;
+  font-family: 'Francois One';
+}
+
+h2{
+  text-align: center;
+  font-family: 'Francois One';
+}
+
+h4{
+  text-align: center;
+  font-family: 'Francois One';
+}
+
+p{
+  text-align: center;
+}
+
+ul{
+	display: inline-block;
+	text-align: left;
+}
+
+section {
+  border: 2px dashed BurlyWood;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+#bike{
+  width: 850px;
+  height: 1400px;
+  font-size: 14px;
+  margin: auto;
+  padding: 30px 80px;
+  border: 3px ridge MediumSeaGreen;
+  text-align: center;
+}
+
+#vb{
+   width: 850px;
+  height: 1775px;
+  font-size: 14px;
+  margin: auto;
+  padding: 30px 80px;
+  border: 3px ridge MediumSeaGreen;
+  text-align: center;
+}
+
