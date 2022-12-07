@@ -4,7 +4,7 @@ function init(){
 	var myLocation = new google.maps.LatLng(41.929637, -87.738234);
 	var mapOptions = {
 	  center: myLocation,
-	  zoom: 10,
+	  zoom: 17,
 	  mapTypeId: google.maps.MapTypeId.SATELLITE,
 	  mapTypeControlOptions: {
 		  position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -42,7 +42,9 @@ function init(){
       strokeWeight: 2,
     });
 
-    trainRoute.setMap(myMap);
+    trainRoute.setMap(map);
+
+
 }
 
 google.maps.event.addDomListener(window, 'load', init);
