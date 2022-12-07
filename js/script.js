@@ -1,6 +1,6 @@
 function init(){
-	alert('it works');
-	/*var el = document.getElementById('canvas');
+	//alert('it works');
+	var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
 	var mapOptions = {
 		center: myLocation,
@@ -27,7 +27,7 @@ function init(){
 
 	google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
-  	});*/
+  	});
 
 
 }
